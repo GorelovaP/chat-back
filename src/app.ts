@@ -39,5 +39,5 @@ socket.on("connection", (socketChannel: any) => {
 const PORT = process.env.PORT || 3009
 
 server.listen(PORT, () => {
-    console.log(`App running on port 3009`);
+    console.log(`App running on port ${PORT}`);
 });
